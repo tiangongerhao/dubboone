@@ -12,8 +12,8 @@
     <artifactId>model</artifactId>
 
     <properties>
+        <mybatis-spring-boot.version>1.1.1</mybatis-spring-boot.version>
         <mybatis-pagehelper.version>4.1.2</mybatis-pagehelper.version>
-
     </properties>
     <dependencies>
 
@@ -24,14 +24,12 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!-- 引入spring-mybatis包 -->
+        <!--spring-mybatis-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>2.0.1</version>
+            <version>${mybatis-spring-boot.version}</version>
         </dependency>
-
-
 
     </dependencies>
 

@@ -13,8 +13,8 @@
 
 
     <properties>
-        <mybatis-pagehelper-version>4.1.2</mybatis-pagehelper-version>
-        <lombok>1.16.10</lombok>
+        <mybatis-pagehelper.version>4.1.2</mybatis-pagehelper.version>
+        <lombok.version>1.16.10</lombok.version>
     </properties>
 
 
@@ -33,10 +33,12 @@
 
         <!--mybatis分页插件-->
         <dependency>
-            <groupId>com.github.pagehleper</groupId>
+            <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
-            <version>${mybatis-pagehelper-version}</version>
+            <version>${mybatis-pagehelper.version}</version>
         </dependency>
+
+
 
         <!--lombok插件-->
         <dependency>
@@ -46,11 +48,7 @@
         </dependency>
 
 
-
     </dependencies>
-
-
-
 
 
 </project>
