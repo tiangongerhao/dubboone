@@ -7,15 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="model" />
+        <module name="server" />
         <module name="API" />
-        <module name="service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="API" target="1.8" />
       <module name="dubboone" target="1.8" />
       <module name="model" target="1.8" />
-      <module name="service" target="1.8" />
+      <module name="server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,7 +23,7 @@
       <module name="API" options="-parameters" />
       <module name="dubboone" options="-parameters" />
       <module name="model" options="-parameters" />
-      <module name="service" options="-parameters" />
+      <module name="server" options="-parameters" />
     </option>
   </component>
 </project>

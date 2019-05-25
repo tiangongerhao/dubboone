@@ -16,7 +16,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @Vsion 1.0
  **/
 @SpringBootApplication
-@ImportResource(value ={"classpath:spring/spring-jdbc.xml"})
+@ImportResource(value ={"classpath:spring/spring-jdbc.xml","classpath:spring/spring-dubbo.xml"})
 @MapperScan(basePackages = "com.yyb.dubboone.mapper")
 @EnableScheduling
 public class BootMoreApplication extends SpringBootServletInitializer {
