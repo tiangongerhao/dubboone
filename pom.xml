@@ -5,7 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>API</module>
-        <module>service</module>
+        <module>server</module>
         <module>model</module>
     </modules>
     <parent>

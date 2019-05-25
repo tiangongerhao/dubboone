@@ -34,7 +34,9 @@ public class BaseController {
     public BaseResponse one(@RequestParam String param){
 
         BaseResponse baseResponse = new BaseResponse(StatusCode.SUCCESS);
+        logger.info("前端传入的数据为："+param);
 
+        baseResponse.setData(param);
         return baseResponse;
 
     }
